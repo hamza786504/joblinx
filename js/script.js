@@ -21,6 +21,26 @@ $('.our_partners_carousel').owlCarousel({
         }
     }
 })
+$('.our_partners_carousel_2').owlCarousel({
+    loop:true,
+    margin: 0,
+    nav:false,
+    dots: false,
+    responsive:{
+        0:{
+            items:1,
+        },
+        350:{
+            items:2,
+        },
+        769:{
+            items:3,
+        },
+        1000:{
+            items:5,
+        }
+    }
+})
 
 
 const search_button = document.getElementById("search_button");
